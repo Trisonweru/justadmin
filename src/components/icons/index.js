@@ -21,3 +21,5 @@ export { default as KeyboardArrowUpIcon } from "@mui/icons-material/KeyboardArro
 export { default as ShoppingCartOutlinedIcon } from "@mui/icons-material/ShoppingCartOutlined";
 export { default as MonetizationOnOutlinedIcon } from "@mui/icons-material/MonetizationOnOutlined";
 export { default as AccountBalanceWalletOutlinedIcon } from "@mui/icons-material/AccountBalanceWalletOutlined";
+export { default as MoreVertOutlinedIcon } from "@mui/icons-material/MoreVertOutlined";
+export { default as KeyboardArrowDownIcon } from "@mui/icons-material/KeyboardArrowDown";

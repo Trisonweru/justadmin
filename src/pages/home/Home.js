@@ -1,5 +1,7 @@
 import React from "react";
 import { Sidebar, Navbar, Widget } from "../../components";
+import Chart from "../../components/chart/Chart";
+import Featured from "../../components/featured/Featured";
 import "./Home.scss";
 
 function Home() {
@@ -14,7 +16,13 @@ function Home() {
           <Widget type="earning" />
           <Widget type="balance" />
         </div>
-        <div className="charts"></div>
+        <div className="charts">
+          <Featured />
+          <Chart />
+        </div>
+        <div className="listContainer">
+          <div className="listTitle">Latest Transactions</div>
+        </div>
       </div>
     </div>
   );
